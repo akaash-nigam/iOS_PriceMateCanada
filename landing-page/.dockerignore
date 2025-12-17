@@ -1,0 +1,22 @@
+# Documentation
+README.md
+QUICK_START.md
+VISUAL_GUIDE.md
+
+# Git
+.git
+.gitignore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
