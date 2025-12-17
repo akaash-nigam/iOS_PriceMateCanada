@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PriceMate Canada - Your smart shopping companion for finding the best prices across Canadian stores. Compare prices, scan barcodes, and save money on groceries.">
+    <meta name="keywords" content="price comparison, grocery savings, Canadian shopping, barcode scanner, price alerts">
+    <title>PriceMate Canada - Smart Shopping for Canadians</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="40" height="40" rx="10" fill="#CC0000"/>
+                        <path d="M12 20L18 14L24 20L30 14" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="20" cy="26" r="2" fill="white"/>
+                    </svg>
+                    <span class="logo-text">PriceMate<span class="logo-canada">Canada</span></span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#stores">Stores</a>
+                    <a href="#download" class="nav-cta">Download</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#stores">Stores</a>
+        <a href="#download">Download</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="maple-leaf maple-leaf-1"></div>
+        <div class="maple-leaf maple-leaf-2"></div>
+        <div class="maple-leaf maple-leaf-3"></div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <span class="flag">🇨🇦</span>
+                        <span>Made for Canadians</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Save Money on<br>
+                        <span class="gradient-text">Groceries</span> & More
+                    </h1>
+                    <p class="hero-subtitle">
+                        Compare prices across major Canadian retailers instantly. Scan products, track prices, and never overpay again.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">$247</div>
+                            <div class="stat-label">Avg. Yearly Savings</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">12+</div>
+                            <div class="stat-label">Stores Supported</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Free Forever</div>
+                        </div>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#download" class="btn btn-primary">
+                            <svg width="20" height="24" viewBox="0 0 20 24" fill="none">
+                                <path d="M14.5 0H5.5C4.11929 0 3 1.11929 3 2.5V21.5C3 22.8807 4.11929 24 5.5 24H14.5C15.8807 24 17 22.8807 17 21.5V2.5C17 1.11929 15.8807 0 14.5 0Z" fill="currentColor"/>
+                                <rect x="5" y="20" width="10" height="2" rx="1" fill="white"/>
+                            </svg>
+                            Download for iPhone
+                        </a>
+                        <a href="#how-it-works" class="btn btn-secondary">
+                            See How It Works
+                        </a>
+                    </div>
+                    <div class="hero-availability">
+                        <span>Available across Canada</span>
+                        <span class="separator">•</span>
+                        <span>English & Français</span>
+                    </div>
+                </div>
+                <div class="hero-phone">
+                    <div class="phone-mockup">
+                        <div class="phone-frame">
+                            <div class="phone-notch"></div>
+                            <div class="phone-screen">
+                                <img src="assets/screenshot-home.png" alt="PriceMate App Screenshot" onerror="this.style.display='none'">
+                            </div>
+                        </div>
+                        <div class="floating-card card-1">
+                            <div class="card-icon">💰</div>
+                            <div class="card-text">
+                                <div class="card-title">Milk 4L</div>
+                                <div class="card-subtitle">$4.99 at Walmart</div>
+                            </div>
+                        </div>
+                        <div class="floating-card card-2">
+                            <div class="card-icon">🎯</div>
+                            <div class="card-text">
+                                <div class="card-title">Price Alert</div>
+                                <div class="card-subtitle">Target reached!</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Everything You Need to Save</h2>
+                <p class="section-subtitle">Powerful features designed specifically for Canadian shoppers</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <rect x="2" y="6" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M6 10H18M6 14H14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="17" cy="14" r="1" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Instant Barcode Scanning</h3>
+                    <p class="feature-description">
+                        Scan any product barcode to instantly compare prices across all major Canadian retailers. Works in-store or at home.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Multi-Store Price Comparison</h3>
+                    <p class="feature-description">
+                        See prices from Loblaws, Metro, Walmart, Costco, Sobeys, and more in one view. Find the best deal in seconds.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M3 3H21V17C21 18.1046 20.1046 19 19 19H5C3.89543 19 3 18.1046 3 17V3Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M3 7H21" stroke="currentColor" stroke-width="2"/>
+                            <path d="M7 21H17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Price History Charts</h3>
+                    <p class="feature-description">
+                        Track price trends over 30 days with beautiful charts. Know when prices are rising or falling to time your purchases.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M9 11L12 14L22 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21 12V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Smart Shopping Lists</h3>
+                    <p class="feature-description">
+                        Create organized shopping lists with categories, quantities, and target prices. Track your progress as you shop.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Price Drop Alerts</h3>
+                    <p class="feature-description">
+                        Set target prices and get notified when items reach your desired price. Never miss a great deal again.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M3 9H21M9 3V21" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Digital Flyers</h3>
+                    <p class="feature-description">
+                        Browse weekly flyers from all major stores in one place. Search deals, filter by category, and add items to your list.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor"/>
+                            <circle cx="12" cy="12" r="3" stroke="white" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Store Locator with Maps</h3>
+                    <p class="feature-description">
+                        Find nearby stores on an interactive map. Get directions and optimize your shopping route to save time and gas.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <rect x="5" y="2" width="14" height="20" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M9 6H15M9 10H15M9 14H12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Bilingual Support</h3>
+                    <p class="feature-description">
+                        Full support for both English and French. Seamlessly switch between languages to suit your preference.
+                    </p>
+                </div>
+
+                <div class="feature-card featured">
+                    <div class="featured-badge">🍁 Canadian Made</div>
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 8V12L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Built for Canadians</h3>
+                    <p class="feature-description">
+                        Designed specifically for the Canadian market with prices in CAD, local stores, and full PIPEDA compliance.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How PriceMate Works</h2>
+                <p class="section-subtitle">Start saving in 3 simple steps</p>
+            </div>
+
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Scan or Search</h3>
+                        <p>Use your camera to scan a product barcode, or search by product name</p>
+                    </div>
+                    <div class="step-visual">📱</div>
+                </div>
+
+                <div class="step-connector"></div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Compare Prices</h3>
+                        <p>See prices from all nearby stores instantly, with the best deal highlighted</p>
+                    </div>
+                    <div class="step-visual">💰</div>
+                </div>
+
+                <div class="step-connector"></div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Save Money</h3>
+                        <p>Add to your shopping list and get directions to stores with the best prices</p>
+                    </div>
+                    <div class="step-visual">🎉</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stores Section -->
+    <section class="stores" id="stores">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Supporting Your Favourite Stores</h2>
+                <p class="section-subtitle">Compare prices across all major Canadian retailers</p>
+            </div>
+
+            <div class="stores-grid">
+                <div class="store-logo">Loblaws</div>
+                <div class="store-logo">Metro</div>
+                <div class="store-logo">Walmart</div>
+                <div class="store-logo">Costco</div>
+                <div class="store-logo">Sobeys</div>
+                <div class="store-logo">No Frills</div>
+                <div class="store-logo">Canadian Tire</div>
+                <div class="store-logo">Shoppers</div>
+                <div class="store-logo">FreshCo</div>
+                <div class="store-logo">Food Basics</div>
+                <div class="store-logo">Save-On-Foods</div>
+                <div class="store-logo">Superstore</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Loved by Canadian Shoppers</h2>
+                <p class="section-subtitle">See what people are saying about PriceMate</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "I've saved over $300 this year just by checking PriceMate before shopping. The barcode scanner is so fast!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div>
+                            <div class="author-name">Sarah M.</div>
+                            <div class="author-location">Toronto, ON</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "Finally, an app that compares Canadian stores! The price alerts are perfect for tracking when items go on sale."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div>
+                            <div class="author-name">Jean D.</div>
+                            <div class="author-location">Montreal, QC</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "Love the bilingual support! It's so easy to switch between English and French. Great for my whole family."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ML</div>
+                        <div>
+                            <div class="author-name">Marie L.</div>
+                            <div class="author-location">Ottawa, ON</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container">
+            <div class="download-content">
+                <div class="download-text">
+                    <h2 class="download-title">Ready to Start Saving?</h2>
+                    <p class="download-subtitle">Download PriceMate Canada now and join thousands of smart Canadian shoppers</p>
+                    <div class="download-features">
+                        <div class="download-feature">
+                            <svg viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18Z"/>
+                                <path d="M13 8L9 12L7 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>100% Free Forever</span>
+                        </div>
+                        <div class="download-feature">
+                            <svg viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18Z"/>
+                                <path d="M13 8L9 12L7 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>No Credit Card Required</span>
+                        </div>
+                        <div class="download-feature">
+                            <svg viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18Z"/>
+                                <path d="M13 8L9 12L7 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Privacy Guaranteed (PIPEDA)</span>
+                        </div>
+                    </div>
+                    <div class="download-buttons">
+                        <a href="#" class="app-store-btn">
+                            <svg width="30" height="36" viewBox="0 0 30 36" fill="none">
+                                <path d="M24.5 0H5.5C2.46243 0 0 2.46243 0 5.5V30.5C0 33.5376 2.46243 36 5.5 36H24.5C27.5376 36 30 33.5376 30 30.5V5.5C30 2.46243 27.5376 0 24.5 0Z" fill="white"/>
+                                <rect x="6" y="28" width="18" height="4" rx="2" fill="currentColor"/>
+                            </svg>
+                            <div>
+                                <span class="app-store-subtitle">Download on the</span>
+                                <span class="app-store-title">App Store</span>
+                            </div>
+                        </a>
+                    </div>
+                    <p class="download-note">Requires iOS 15.0 or later • 25MB download</p>
+                </div>
+                <div class="download-phone">
+                    <div class="phone-showcase">
+                        <div class="showcase-frame">
+                            <div class="showcase-screen"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="10" fill="#CC0000"/>
+                            <path d="M12 20L18 14L24 20L30 14" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="20" cy="26" r="2" fill="white"/>
+                        </svg>
+                        <span class="logo-text">PriceMate<span class="logo-canada">Canada</span></span>
+                    </div>
+                    <p class="footer-tagline">Smart shopping for Canadians 🍁</p>
+                    <div class="footer-flag">🇨🇦 Proudly Canadian</div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="#features">Features</a>
+                        <a href="#how-it-works">How It Works</a>
+                        <a href="#stores">Supported Stores</a>
+                        <a href="#download">Download</a>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="#">About Us</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Contact</a>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <a href="#">Help Center</a>
+                        <a href="#">FAQs</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <a href="#">Twitter</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 PriceMate Canada. All rights reserved.</p>
+                <p>PIPEDA Compliant • Made with ❤️ in Canada</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
