@@ -1,0 +1,125 @@
+/* French Localization for PriceMate Canada */
+
+/* Tab Bar */
+"tab.home" = "Accueil";
+"tab.scan" = "Scanner";
+"tab.list" = "Liste";
+"tab.flyers" = "Circulaires";
+"tab.profile" = "Profil";
+
+/* Home Screen */
+"home.title" = "PriceMate Canada";
+"home.search.placeholder" = "Rechercher des produits ou magasins...";
+"home.location" = "Emplacement";
+"home.deals.title" = "Meilleures offres du jour";
+"home.stores.title" = "Magasins près de vous";
+"home.action.scan" = "Scanner le produit";
+"home.action.alerts" = "Alertes de prix";
+"home.action.list" = "Liste d'achats";
+"home.action.flyers" = "Circulaires";
+
+/* Scanner Screen */
+"scanner.title" = "Scanner le code-barres";
+"scanner.instruction" = "Aligner le code-barres dans le cadre";
+"scanner.manual" = "Entrer le code-barres manuellement";
+"scanner.subtitle" = "Scanner n'importe quel code-barres de produit";
+"scanner.cancel" = "Annuler";
+"scanner.torch" = "Lampe de poche";
+
+/* Price Comparison */
+"price.title" = "Comparaison de prix";
+"price.loading" = "Recherche des meilleurs prix...";
+"price.not_found" = "Produit non trouvé";
+"price.not_found.message" = "Essayez de scanner à nouveau ou entrez le code-barres manuellement";
+"price.add_to_list" = "Ajouter à la liste";
+"price.price_alert" = "Alerte de prix";
+"price.history" = "Historique des prix";
+"price.last_days" = "30 derniers jours";
+"price.lowest" = "Le plus bas";
+"price.average" = "Moyenne";
+"price.highest" = "Le plus élevé";
+"price.lowest_badge" = "LE PLUS BAS";
+"price.stores.title" = "Magasins à proximité";
+"price.sale_ends" = "Solde se termine";
+"price.out_of_stock" = "Rupture de stock";
+
+/* Shopping List */
+"list.title" = "Liste d'achats";
+"list.empty" = "Votre liste d'achats est vide";
+"list.empty.subtitle" = "Ajoutez des articles pour commencer à économiser sur l'épicerie";
+"list.add_first" = "Ajouter le premier article";
+"list.add_item" = "Ajouter un article";
+"list.items_count" = "%d sur %d articles";
+"list.estimated_total" = "Total estimé: %.2f$";
+"list.optimize_route" = "Optimiser l'itinéraire";
+"list.edit" = "Modifier";
+"list.done" = "Terminé";
+
+/* Flyers */
+"flyers.title" = "Circulaires hebdomadaires";
+"flyers.all_stores" = "Tous les magasins";
+"flyers.all_categories" = "Toutes les catégories";
+"flyers.deals_count" = "%d Offres";
+"flyers.new_badge" = "NOUVEAU";
+"flyers.valid_until" = "Valide jusqu'au";
+"flyers.share" = "Partager";
+"flyers.download" = "Télécharger le PDF";
+
+/* Profile */
+"profile.title" = "Profil";
+"profile.preferences" = "Préférences";
+"profile.location" = "Emplacement";
+"profile.preferred_stores" = "Magasins préférés";
+"profile.stores_selected" = "%d sélectionnés";
+"profile.language" = "Display in English";
+"profile.notifications" = "Notifications";
+"profile.price_alerts" = "Alertes de baisse de prix";
+"profile.flyer_updates" = "Mises à jour des circulaires";
+"profile.recommendations" = "Recommandations d'offres";
+"profile.privacy" = "Confidentialité";
+"profile.location_services" = "Services de localisation";
+"profile.data_privacy" = "Données et confidentialité";
+"profile.savings" = "Vos économies";
+"profile.total_saved" = "Total économisé";
+"profile.items_tracked" = "Articles suivis";
+"profile.alerts_set" = "Alertes de prix définies";
+"profile.lists_created" = "Listes créées";
+"profile.support" = "Assistance";
+"profile.help" = "Aide et assistance";
+"profile.rate" = "Évaluer PriceMate Canada";
+"profile.about" = "À propos";
+"profile.privacy_policy" = "Politique de confidentialité";
+"profile.terms" = "Conditions d'utilisation";
+"profile.version" = "Version";
+
+/* Buttons */
+"button.cancel" = "Annuler";
+"button.done" = "Terminé";
+"button.add" = "Ajouter";
+"button.save" = "Enregistrer";
+"button.delete" = "Supprimer";
+"button.close" = "Fermer";
+"button.retry" = "Réessayer";
+"button.ok" = "OK";
+
+/* Common */
+"common.loading" = "Chargement...";
+"common.error" = "Erreur";
+"common.success" = "Succès";
+"common.km" = "km";
+"common.open" = "Ouvert";
+"common.closed" = "Fermé";
+
+/* Notifications */
+"notification.permission.title" = "Activer les notifications";
+"notification.permission.message" = "Recevez des alertes lorsque les prix baissent sur les articles que vous surveillez";
+"notification.price_alert.title" = "Alerte de prix!";
+"notification.price_alert.body" = "%@ est maintenant %.2f$ chez %@ - À votre prix cible!";
+"notification.weekly_flyers.title" = "Nouvelles circulaires hebdomadaires disponibles!";
+"notification.weekly_flyers.body" = "Découvrez les meilleures offres de cette semaine chez Metro, Loblaws et d'autres magasins près de vous.";
+
+/* Errors */
+"error.camera.permission" = "L'accès à la caméra est requis pour scanner les codes-barres";
+"error.location.permission" = "L'accès à la localisation nous aide à trouver des magasins près de vous";
+"error.network" = "Erreur de connexion réseau. Veuillez réessayer.";
+"error.unknown" = "Une erreur inattendue s'est produite";

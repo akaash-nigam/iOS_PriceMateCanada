@@ -1,0 +1,125 @@
+/* English Localization for PriceMate Canada */
+
+/* Tab Bar */
+"tab.home" = "Home";
+"tab.scan" = "Scan";
+"tab.list" = "List";
+"tab.flyers" = "Flyers";
+"tab.profile" = "Profile";
+
+/* Home Screen */
+"home.title" = "PriceMate Canada";
+"home.search.placeholder" = "Search products or stores...";
+"home.location" = "Location";
+"home.deals.title" = "Today's Best Deals";
+"home.stores.title" = "Stores Near You";
+"home.action.scan" = "Scan Product";
+"home.action.alerts" = "Price Alerts";
+"home.action.list" = "Shopping List";
+"home.action.flyers" = "Weekly Flyers";
+
+/* Scanner Screen */
+"scanner.title" = "Scan Barcode";
+"scanner.instruction" = "Align barcode within frame";
+"scanner.manual" = "Enter Barcode Manually";
+"scanner.subtitle" = "Scan any product barcode";
+"scanner.cancel" = "Cancel";
+"scanner.torch" = "Flashlight";
+
+/* Price Comparison */
+"price.title" = "Price Comparison";
+"price.loading" = "Finding best prices...";
+"price.not_found" = "Product not found";
+"price.not_found.message" = "Try scanning again or enter the barcode manually";
+"price.add_to_list" = "Add to List";
+"price.price_alert" = "Price Alert";
+"price.history" = "Price History";
+"price.last_days" = "Last 30 days";
+"price.lowest" = "Lowest";
+"price.average" = "Average";
+"price.highest" = "Highest";
+"price.lowest_badge" = "LOWEST";
+"price.stores.title" = "Nearby Stores";
+"price.sale_ends" = "Sale ends";
+"price.out_of_stock" = "Out of Stock";
+
+/* Shopping List */
+"list.title" = "Shopping List";
+"list.empty" = "Your shopping list is empty";
+"list.empty.subtitle" = "Add items to start saving on groceries";
+"list.add_first" = "Add First Item";
+"list.add_item" = "Add Item";
+"list.items_count" = "%d of %d items";
+"list.estimated_total" = "Est. Total: $%.2f";
+"list.optimize_route" = "Optimize Route";
+"list.edit" = "Edit";
+"list.done" = "Done";
+
+/* Flyers */
+"flyers.title" = "Weekly Flyers";
+"flyers.all_stores" = "All Stores";
+"flyers.all_categories" = "All Categories";
+"flyers.deals_count" = "%d Deals";
+"flyers.new_badge" = "NEW";
+"flyers.valid_until" = "Valid until";
+"flyers.share" = "Share";
+"flyers.download" = "Download PDF";
+
+/* Profile */
+"profile.title" = "Profile";
+"profile.preferences" = "Preferences";
+"profile.location" = "Location";
+"profile.preferred_stores" = "Preferred Stores";
+"profile.stores_selected" = "%d selected";
+"profile.language" = "Afficher en français";
+"profile.notifications" = "Notifications";
+"profile.price_alerts" = "Price Drop Alerts";
+"profile.flyer_updates" = "Weekly Flyer Updates";
+"profile.recommendations" = "Deal Recommendations";
+"profile.privacy" = "Privacy";
+"profile.location_services" = "Location Services";
+"profile.data_privacy" = "Data & Privacy";
+"profile.savings" = "Your Savings";
+"profile.total_saved" = "Total Saved";
+"profile.items_tracked" = "Items Tracked";
+"profile.alerts_set" = "Price Alerts Set";
+"profile.lists_created" = "Lists Created";
+"profile.support" = "Support";
+"profile.help" = "Help & Support";
+"profile.rate" = "Rate PriceMate Canada";
+"profile.about" = "About";
+"profile.privacy_policy" = "Privacy Policy";
+"profile.terms" = "Terms of Service";
+"profile.version" = "Version";
+
+/* Buttons */
+"button.cancel" = "Cancel";
+"button.done" = "Done";
+"button.add" = "Add";
+"button.save" = "Save";
+"button.delete" = "Delete";
+"button.close" = "Close";
+"button.retry" = "Retry";
+"button.ok" = "OK";
+
+/* Common */
+"common.loading" = "Loading...";
+"common.error" = "Error";
+"common.success" = "Success";
+"common.km" = "km";
+"common.open" = "Open";
+"common.closed" = "Closed";
+
+/* Notifications */
+"notification.permission.title" = "Enable Notifications";
+"notification.permission.message" = "Get alerts when prices drop on items you're watching";
+"notification.price_alert.title" = "Price Alert!";
+"notification.price_alert.body" = "%@ is now $%.2f at %@ - At your target price!";
+"notification.weekly_flyers.title" = "New Weekly Flyers Available!";
+"notification.weekly_flyers.body" = "Check out this week's best deals from Metro, Loblaws, and more stores near you.";
+
+/* Errors */
+"error.camera.permission" = "Camera access is required to scan barcodes";
+"error.location.permission" = "Location access helps us find stores near you";
+"error.network" = "Network connection error. Please try again.";
+"error.unknown" = "An unexpected error occurred";
